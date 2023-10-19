@@ -19,7 +19,7 @@ It includes the following components
 
 
 ## Installation
-Install metax using pip:
+Install `metax` using pip:
 ```
 pip install git+https://github.com/smonsays/metax
 ```
@@ -50,7 +50,7 @@ meta_learner = metax.learner.ModelAgnosticMetaLearning(
 
 ## Citation
 
-If you use [`metax`](https://github.com/smonsays/metax) in your research, please cite it as:
+If you use `metax` in your research, please cite it as:
 
 ```
 @software{metax2023,
