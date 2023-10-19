@@ -1,6 +1,6 @@
-# `metax`
+# metax
 
-`metax` is a meta-learning research library in jax. 
+`metax` is a meta-learning library in jax for research. 
 It bundles various meta-learning algorithms and architectures that can be flexibly combined and is simple to extend.
 It includes the following components
 
@@ -61,3 +61,5 @@ If you use `metax` in your research, please cite it as:
 }
 ```
 
+## Acknowledgements
+Research supported with Cloud TPUs from Google's [TPU Research Cloud (TRC)](https://sites.research.google/trc/about/).
