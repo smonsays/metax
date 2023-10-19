@@ -4,13 +4,13 @@
 It bundles various meta-learning algorithms and architectures that can be flexibly combined and is simple to extend.
 It includes the following components
 
-- `metax/learner`
+- [`metax/learner`](https://github.com/smonsays/metax/tree/main/metax/learner)
   - maml.py: Backpropagation through the optimization as in [MAML](http://proceedings.mlr.press/v70/finn17a.html)
   - eqprop.py: Equilibrium propagation as in [CML](https://proceedings.neurips.cc/paper_files/paper/2022/hash/a6d7226db2ff3643d8624624e3859c19-Abstract-Conference.html)
   - evolution.py: Evolutionary algorithms interfacing with [`evosax`](https://github.com/RobertTLange/evosax) 
   - implicit.py: [Conjugate Gradient](https://papers.nips.cc/paper/2019/hash/072b030ba126b2f4b2374f342be9ed44-Abstract.html), [Recurrent Backpropagation](https://arxiv.org/abs/1803.06396), [T1T2](https://proceedings.mlr.press/v48/luketina16.html)
   - reptile.py: [Reptile](https://arxiv.org/abs/1803.02999)
-- `metax/module`
+- [`metax/module`](https://github.com/smonsays/metax/tree/main/metax/module)
   - anil.py: [ANIL](https://arxiv.org/abs/1909.09157)
   - cavia.py: [CAVIA](https://arxiv.org/abs/1810.03642)
   - compsyn.py: Complex synapse model from [CML](https://proceedings.neurips.cc/paper_files/paper/2022/hash/a6d7226db2ff3643d8624624e3859c19-Abstract-Conference.html)
@@ -45,12 +45,12 @@ meta_learner = metax.learner.ModelAgnosticMetaLearning(
     first_order=False,
 )
 ```
-[`examples/`](https://github.com/smonsays/metax/examples) contains a number of educational examples that demonstrate various combinations of meta-algorithms with meta-architectures on a simple regression task.
+[`examples/`](https://github.com/smonsays/metax/tree/main/examples) contains a number of educational examples that demonstrate various combinations of meta-algorithms with meta-architectures on a simple regression task.
 
 
 ## Citation
 
-If you use `metax` in your research, please cite it as:
+If you use [`metax`](https://github.com/smonsays/metax) in your research, please cite it as:
 
 ```
 @software{metax2023,
